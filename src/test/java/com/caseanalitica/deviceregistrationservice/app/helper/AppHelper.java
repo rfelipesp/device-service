@@ -4,13 +4,12 @@ import com.caseanalitica.deviceregistrationservice.app.dto.response.DeviceRespon
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 public interface AppHelper {
 
     static DeviceResponse buildDeviceResponse() {
         DeviceResponse device = new DeviceResponse();
-        device.setUuid(UUID.fromString("41c4fd68-2c9a-11ee-be56-0242ac120002"));
+        device.setId(1L);
         return device;
     }
 
